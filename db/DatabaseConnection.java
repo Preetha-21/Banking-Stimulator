@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/bank_simulator?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
     private static final String USER = "root";
-    private static final String PASSWORD = "Preetha@21"; // 🔹 change this to your MySQL password
+    private static final String PASSWORD = "Preetha@239"; // 🔹 change this to your MySQL password
 
     public static Connection getConnection() throws SQLException {
         try {
@@ -18,3 +18,4 @@ public class DatabaseConnection {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 }
+
